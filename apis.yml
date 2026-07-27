@@ -1,7 +1,29 @@
 aid: freshplum
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshplum.png
 name: Freshplum
-description: Freshplum is a company surfaced as a portfolio company of dcvc, gv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Freshplum was a San Francisco data-science startup (founded 2010) that built
+  cloud-based predictive analytics for e-commerce, gauging online shopper
+  behavior in real time to surface personalized promotional offers and discounts
+  to visitors who might otherwise abandon a purchase. During its private alpha it
+  was already processing over 10M requests a day. Freshplum raised roughly $1.7M
+  from investors including DCVC and GV (Google Ventures) before being acquired by
+  ad-targeting company TellApart in July 2014 (TellApart was in turn acquired by
+  Twitter in 2015). The company is defunct: it ships no live product, developer
+  portal, documentation, or public API, and the freshplum.com domain is now a
+  parked listing offered for sale via Afternic. This profile is retained as a
+  historical/portfolio record; there is no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/freshplum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,29 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by TellApart in July 2014; domain parked/for-sale (Afternic); no live API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Analytics
+- Predictive Analytics
+- E-Commerce
+- Personalization
+- Pricing
+- Data Science
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
